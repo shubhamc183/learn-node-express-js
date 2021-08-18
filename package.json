@@ -1,0 +1,24 @@
+{
+  "name": "learn-node-express",
+  "version": "1.0.0",
+  "description": "A project to learn best practices of node + express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamc183/learn-node-express-js.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "learn"
+  ],
+  "author": "Shubham Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamc183/learn-node-express-js/issues"
+  },
+  "homepage": "https://github.com/shubhamc183/learn-node-express-js#readme"
+}
