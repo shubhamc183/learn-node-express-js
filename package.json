@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/shubhamc183/learn-node-express-js/issues"
   },
-  "homepage": "https://github.com/shubhamc183/learn-node-express-js#readme"
+  "homepage": "https://github.com/shubhamc183/learn-node-express-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
