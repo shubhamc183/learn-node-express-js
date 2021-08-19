@@ -1,5 +1,8 @@
-const {app, port} = require('./server');
+const server = require('./server');
+const container = require('./di/index')
 
-app.listen(port, () => {
-    console.log(`App started at Port:${port}`);
-})
+server(container)
+.then((app) => {
+    console.log(`Server started succesfully, running on port.`);
+    app.on('close', () => container.dispose());
+});
