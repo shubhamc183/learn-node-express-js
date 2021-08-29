@@ -6,3 +6,6 @@ Learning Node.js with Express.js and other powerful librabies
 ```
 nodemon index.js
 ```
+
+# DON'T BLOCK THE EVENT LOOP!!
+![event-loop](meta/event-loop.png)
