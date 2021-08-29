@@ -9,3 +9,6 @@ nodemon index.js
 
 # DON'T BLOCK THE EVENT LOOP!!
 ![event-loop](meta/event-loop.png)
+
+# MIDDLEWARES
+![middleware](meta/middleware.png)
