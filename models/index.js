@@ -15,7 +15,7 @@ const validator = (object, type) => {
         }
         const {error, value} = schemas[type].validate(object);
         if(error){
-            reject(new Error(`Invalid ${type} of ${schemas[type]}: ${error}`));
+            reject(new Error(`Invalid ${type} data: ${error}`));
         }
         resolve(value);
     });
