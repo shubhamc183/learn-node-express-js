@@ -18,9 +18,12 @@ const server = (container) => {
             next();
         })
         app.get('/', (req, res) => {
-            res.send("Hi from EXPRESS!")
+            res.send("Hi from EXPRESS!");
         });
         app.use('/api', apiRouter);
+        app.use((req, res, next) => {
+            res.status(404).send('<h1>Page not found!</h1>');
+        })
 		app.listen(port, () => {
 	        resolve(app);
 		});
