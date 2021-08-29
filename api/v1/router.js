@@ -13,4 +13,8 @@ router.get('/getUsers', (req, res) => {
     req.container.resolve('getUsers').handleRequest(req, res);
 });
 
+router.post('/createUser', (req, res) => {
+    req.container.resolve('createUser').handleRequest(req, res);
+})
+
 module.exports = router;
