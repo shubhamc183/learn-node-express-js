@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyparser = require('body-parser');
 const apiRouter = require("./api/router");
 
 const server = (container) => {
@@ -11,6 +12,7 @@ const server = (container) => {
             return reject("Server port is not resolvable!!");
         }
         const app = express();
+        app.use(bodyparser.json());
         app.use((req, res, next) => {
             req.container = container.createScope();
             next();
