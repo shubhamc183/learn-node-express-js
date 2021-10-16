@@ -15,3 +15,9 @@ nodemon index.js
 
 # MVC
 ![MVC](meta/mvc.png)
+
+# REST Methods
+![Rest Methods](meta/rest-methods.png)
+
+# REST Principles
+![Rest Methods](meta/rest-principles.png)
