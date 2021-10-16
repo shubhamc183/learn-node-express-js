@@ -12,3 +12,6 @@ nodemon index.js
 
 # MIDDLEWARES
 ![middleware](meta/middleware.png)
+
+# MVC
+![MVC](meta/mvc.png)
