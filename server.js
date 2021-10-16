@@ -22,6 +22,9 @@ const server = (container) => {
             res.send("Hi from EXPRESS!");
         });
         app.use('/api', apiRouter);
+
+        // serving static files from the public repo
+        app.use(express.static(path.join(__dirname, 'public')));
         app.use((req, res, next) => {
             res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
             // res.status(404).send('<h1>Page not found!</h1>');
